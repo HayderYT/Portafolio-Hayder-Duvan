@@ -5,5 +5,3 @@ CHECKLIST DE ENTREGA
 [OK] Archivo de audio utilizado: assets/audio/bienvenida.mp3 y audios por sección.
 [OK] Capturas de pantalla del funcionamiento: carpeta capturas/.
 [OK] Documento corto explicando objetivo, tecnologías, dificultades y conclusiones: docs/documento_portafolio_hayder.pdf.
-
-NOTA: El enlace público final debe generarse desde la cuenta del estudiante en Netlify o GitHub Pages.
