@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio web personal de Hayder Duvan Carreño Ramos, estudiante de Ingeniería de Software." />
+  <meta name="author" content="Hayder Duvan Carreño Ramos" />
+  <title>Hayder Duvan Carreño Ramos | Portafolio Web</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">HDC</span>
+        <span class="brand-text">Hayder Duvan</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li><a href="#perfil" class="nav-link">Perfil</a></li>
+        <li><a href="#academia" class="nav-link">Academia</a></li>
+        <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li><a href="#certificaciones" class="nav-link">Certificación</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio" data-section-title="Inicio">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Portafolio profesional - Ingeniería de Software</p>
+          <h1>Hayder Duvan<br /><span>Carreño Ramos</span></h1>
+          <p class="hero-subtitle">
+            Estudiante de Ingeniería de Software con interés en el desarrollo web, la creación de interfaces claras y la solución de problemas mediante tecnología.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn secondary" href="mailto:hayderduvan@gmail.com">Contactarme</a>
+            <button class="btn ghost" type="button" data-audio-section="bienvenida">▶ Escuchar presentación</button>
+          </div>
+          <div class="quick-stats" aria-label="Resumen rápido">
+            <article>
+              <strong>2</strong>
+              <span>Proyectos</span>
+            </article>
+            <article>
+              <strong>IBM</strong>
+              <span>SkillsBuild</span>
+            </article>
+            <article>
+              <strong>Web</strong>
+              <span>Responsive</span>
+            </article>
+          </div>
+        </div>
+        <div class="hero-card reveal delay-1">
+          <div class="profile-orbit" aria-hidden="true"></div>
+          <img src="assets/img/foto-perfil-hayder.png" alt="Foto de perfil de Hayder Duvan Carreño Ramos" class="profile-photo" />
+          <div class="status-card">
+            <span class="pulse"></span>
+            Disponible para aprender, crear y mejorar soluciones web.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="perfil" data-section-title="Perfil profesional">
+      <div class="container two-columns">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 - Perfil</p>
+          <h2>Perfil profesional</h2>
+          <button class="voice-inline" type="button" data-audio-section="perfil">▶ Escuchar resumen de esta sección</button>
+        </div>
+        <div class="content-panel reveal delay-1">
+          <p>
+            Soy estudiante de Ingeniería de Software y estoy construyendo una ruta profesional enfocada en el desarrollo de aplicaciones web, la organización del código y la creación de experiencias digitales fáciles de usar.
+          </p>
+          <p>
+            Me interesa participar en proyectos donde pueda aplicar HTML, CSS, JavaScript, buenas prácticas de diseño responsive y pensamiento centrado en el usuario.
+          </p>
+          <div class="objectives-grid">
+            <article>
+              <span>🎯</span>
+              <h3>Objetivo principal</h3>
+              <p>Fortalecer mis competencias como desarrollador web y aportar soluciones funcionales, visuales y mantenibles.</p>
+            </article>
+            <article>
+              <span>🧩</span>
+              <h3>Enfoque</h3>
+              <p>Diseñar interfaces ordenadas, comprender necesidades del usuario y convertir ideas en prototipos funcionales.</p>
+            </article>
+            <article>
+              <span>🚀</span>
+              <h3>Meta profesional</h3>
+              <p>Avanzar hacia proyectos cada vez más completos, integrando frontend, bases de datos y lógica de negocio.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="academia" data-section-title="Formación y competencias">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">02 - Academia</p>
+          <h2>Formación, certificaciones y competencias</h2>
+          <p>Información académica y técnica que respalda mi proceso como estudiante de Ingeniería de Software.</p>
+          <button class="voice-inline" type="button" data-audio-section="academia">▶ Escuchar resumen académico</button>
+        </div>
+        <div class="cards-grid">
+          <article class="info-card reveal">
+            <div class="card-icon">🎓</div>
+            <h3>Formación académica</h3>
+            <p>Programa: Ingeniería de Software.</p>
+            <p>Perfil en formación orientado al desarrollo de soluciones web, análisis de requerimientos y construcción de aplicaciones interactivas.</p>
+          </article>
+          <article class="info-card reveal delay-1">
+            <div class="card-icon">🧠</div>
+            <h3>Competencias técnicas</h3>
+            <ul class="tag-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Diseño responsive</li>
+              <li>Git y GitHub</li>
+              <li>Validación de formularios</li>
+              <li>UI básica</li>
+              <li>Documentación</li>
+            </ul>
+          </article>
+          <article class="info-card reveal delay-2">
+            <div class="card-icon">💻</div>
+            <h3>Lenguajes y tecnologías conocidos</h3>
+            <p>JavaScript para interacción web, HTML y CSS para estructura y estilos, además de fundamentos de lógica de programación y manejo de proyectos con repositorios.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos" data-section-title="Proyectos">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">03 - Proyectos</p>
+          <h2>Proyectos académicos y personales</h2>
+          <p>Estos proyectos muestran mi práctica en interfaces web, gestión de información e interacción con usuarios.</p>
+          <button class="voice-inline" type="button" data-audio-section="proyectos">▶ Escuchar resumen de proyectos</button>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card reveal">
+            <div class="project-media gallery" aria-label="Capturas de la plataforma de caddies">
+              <img src="assets/img/proyecto-caddies-dashboard.png" alt="Dashboard del proyecto Club de Tenis Colombia" />
+              <img src="assets/img/proyecto-caddies-canchas.png" alt="Gestión de canchas del proyecto Club de Tenis Colombia" />
+            </div>
+            <div class="project-body">
+              <span class="project-label">Proyecto 1</span>
+              <h3>Plataforma Caddies - Club de Tenis Colombia</h3>
+              <p>
+                Sistema web para apoyar la administración de un club de tenis: visualización de canchas disponibles u ocupadas, gestión de empleados, clientes, turnos, pagos y reportes administrativos.
+              </p>
+              <div class="tech-stack">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>GitHub</span><span>Responsive</span>
+              </div>
+              <a class="btn small" href="https://github.com/MiguelEA44/plataforma-caddies.git" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-1 reverse">
+            <div class="project-media">
+              <img src="assets/img/proyecto-registro-estudiantes.png" alt="Vista del proyecto Registro de Estudiantes" />
+            </div>
+            <div class="project-body">
+              <span class="project-label">Proyecto 2</span>
+              <h3>Registro de Estudiantes</h3>
+              <p>
+                Aplicación web para registrar, editar, eliminar y buscar estudiantes mediante una interfaz visual, ordenada y fácil de usar.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Formularios</span><span>Netlify</span>
+              </div>
+              <a class="btn small" href="https://formulario-estudiantes-by-hayder.netlify.app/" target="_blank" rel="noopener noreferrer">Ver proyecto publicado</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="certificaciones" data-section-title="Certificación">
+      <div class="container two-columns align-center">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 - Certificación</p>
+          <h2>Enterprise Design Thinking Practitioner</h2>
+          <p>
+            Certificación de IBM SkillsBuild relacionada con pensamiento de diseño, trabajo centrado en las personas y solución creativa de problemas.
+          </p>
+          <button class="voice-inline" type="button" data-audio-section="certificaciones">▶ Escuchar resumen de certificación</button>
+          <a class="btn primary" href="assets/certificados/EnterpriseDesignThinkingPractitioner_Badge20260501-31-lea73b.pdf" target="_blank" rel="noopener noreferrer">Abrir certificado PDF</a>
+        </div>
+        <div class="certificate-card reveal delay-1">
+          <img src="assets/img/certificacion-ibm-skillsbuild.png" alt="Insignia Enterprise Design Thinking Practitioner de IBM SkillsBuild" />
+          <div>
+            <h3>IBM SkillsBuild</h3>
+            <p>Enterprise Design Thinking Practitioner</p>
+            <span class="date-badge">Emitido: 01 mayo 2026</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto" data-section-title="Contacto">
+      <div class="container contact-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">05 - Contacto</p>
+          <h2>Hablemos de proyectos web</h2>
+          <p>Estoy disponible para seguir aprendiendo, participar en trabajos académicos y construir soluciones digitales con buena organización.</p>
+          <button class="voice-inline" type="button" data-audio-section="contacto">▶ Escuchar resumen de contacto</button>
+        </div>
+        <div class="contact-cards reveal delay-1">
+          <a href="mailto:hayderduvan@gmail.com" class="contact-card">
+            <span>✉️</span>
+            <div>
+              <strong>Correo</strong>
+              <p>hayderduvan@gmail.com</p>
+            </div>
+          </a>
+          <a href="tel:+573184080875" class="contact-card">
+            <span>📱</span>
+            <div>
+              <strong>Teléfono</strong>
+              <p>+57 318 408 0875</p>
+            </div>
+          </a>
+          <a href="https://github.com/MiguelEA44/plataforma-caddies.git" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span>🗂️</span>
+            <div>
+              <strong>GitHub</strong>
+              <p>Repositorio del proyecto de caddies</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="voice-panel" aria-label="Control de voz del portafolio">
+    <div class="voice-header">
+      <span class="voice-dot" aria-hidden="true"></span>
+      <div>
+        <strong>Voz del portafolio</strong>
+        <p id="voiceStatus">Sección actual: Inicio</p>
+      </div>
+    </div>
+    <div class="voice-controls">
+      <button type="button" id="playCurrent">▶ Reproducir</button>
+      <button type="button" id="pauseVoice">⏸ Pausar</button>
+      <button type="button" id="resumeVoice">⏵ Continuar</button>
+      <button type="button" id="stopVoice">■ Detener</button>
+    </div>
+    <label class="voice-check">
+      <input type="checkbox" id="useBrowserVoice" checked />
+      Usar voz natural del navegador si está disponible
+    </label>
+    <audio id="fallbackAudio" preload="auto"></audio>
+  </aside>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Hayder Duvan Carreño Ramos. Portafolio web personal.</p>
+      <a href="#top">Volver arriba</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

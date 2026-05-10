@@ -1,0 +1,1 @@
+En proyectos se muestran dos trabajos: una plataforma para gestionar canchas, turnos y pagos en un club de tenis, y un formulario web para registrar estudiantes de forma clara y ordenada.

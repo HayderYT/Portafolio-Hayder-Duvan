@@ -1,0 +1,15 @@
+GUIONES DE AUDIO - PORTAFOLIO HAYDER DUVAN CARRENO RAMOS
+
+
+
+BIENVENIDA: Hola, soy Hayder Duvan Carreño Ramos, estudiante de Ingeniería de Software. Este portafolio presenta mi perfil profesional, mis habilidades, certificaciones y proyectos web, con una experiencia interactiva y responsive.
+
+PERFIL: En esta sección encontrarás mi perfil profesional, mis objetivos y mis datos de contacto. Mi enfoque está en crear soluciones web organizadas, útiles y fáciles de usar.
+
+ACADEMIA: Aquí se resume mi formación en Ingeniería de Software, las competencias técnicas que estoy fortaleciendo y mi certificación Enterprise Design Thinking Practitioner de IBM SkillsBuild.
+
+PROYECTOS: En proyectos se muestran dos trabajos: una plataforma para gestionar canchas, turnos y pagos en un club de tenis, y un formulario web para registrar estudiantes de forma clara y ordenada.
+
+CERTIFICACIONES: Esta parte destaca el certificado de IBM SkillsBuild en Enterprise Design Thinking Practitioner, relacionado con diseño centrado en las personas, innovación y solución de problemas.
+
+CONTACTO: En la sección de contacto puedes encontrar el correo, el teléfono y los enlaces para comunicarte o revisar los proyectos publicados por Hayder Duvan.
