@@ -13,7 +13,9 @@ Archivos de audio MP3 incluidos como respaldo en assets/audio/.
 JavaScript para navegación, animaciones, progreso de lectura, menú responsive y control de voz.
 Documento corto de explicación en docs/documento_portafolio_hayder.pdf.
 Capturas de funcionamiento en capturas/.
+
 Estructura de carpetas
+
 portfolio-hayder-duvan/
 ├── index.html
 ├── css/
